@@ -117,10 +117,10 @@ Esta seção documenta a execução dos 5 casos de teste obrigatórios para vali
 
 ---
 
-## Links de Entrega (Apenas no arquivo .txt final)
+## Links
 
-* **Link do Repositório GitHub:** `[Insira o link do repositório aqui]`
-* **Link do Vídeo de Demonstração (YouTube - Não Listado):** `[Insira o link do vídeo aqui]`
+* **Link do Collab:** `https://colab.research.google.com/drive/1nkvzaw2nexnaymN1d0i1iEn1vFqoIzIF?usp=sharing`
+* **Link do Vídeo de Demonstração:** `[Insira o link do vídeo aqui]`
 
 ```
 
