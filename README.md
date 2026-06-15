@@ -1,4 +1,3 @@
-```markdown
 # GoodWe ChargeGrid Intelligence - Sprint 2 (EV Challenge 2026)
 
 ## Integrantes
