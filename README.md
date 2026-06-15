@@ -69,7 +69,7 @@ Esta seção documenta a execução dos 5 casos de teste obrigatórios para vali
 * **Classificação:** [X] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
 * **Justificativa:** A IA identificou corretamente o gatilho de 80% e calculou os valores exatos.
 * **Evidência Operacional:**
-  ![Print do Teste 1](docs/teste1.png)
+  ![Print do Teste 1](assets/teste1.png)
 
 
 
