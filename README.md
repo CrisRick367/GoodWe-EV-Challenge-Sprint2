@@ -64,12 +64,12 @@ Esta seção documenta a execução dos 5 casos de teste obrigatórios para vali
 
 ### Caso de Teste 1: Smart Surge Pricing
 
-* **Pergunta enviada:** "Temos um evento no shopping hoje e 9 dos nossos 10 carregadores rápidos já estão ocupados. A tarifa base é R$ 1,80/kWh. O que sugere?"
-* **Resposta obtida:** *(Cole aqui o texto retornado pelo chatbot)*
-* **Classificação:** [ ] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
-* **Justificativa:** *(Justifique com base nas regras do negócio)*
+* **Pergunta enviada:** "Temos um evento no shopping hoje e 9 dos nossos 10 carregadores rápidos já estão ocupados..."
+* **Resposta obtida:** O sistema sugeriu o aumento de 15% a 20%...
+* **Classificação:** [X] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
+* **Justificativa:** A IA identificou corretamente o gatilho de 80% e calculou os valores exatos.
 * **Evidência Operacional:**
-> *(Insira uma imagem de print do terminal rodando o script aqui)*
+  ![Print do Teste 1](docs/teste1.png)
 
 
 
