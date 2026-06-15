@@ -120,7 +120,7 @@ Esta seção documenta a execução dos 5 casos de teste obrigatórios para vali
 ## Links
 
 * **Collab:** [Link](https://colab.research.google.com/drive/1nkvzaw2nexnaymN1d0i1iEn1vFqoIzIF?usp=sharing)
-* **Link do Vídeo de Demonstração:** `[Insira o link do vídeo aqui]`
+* **Vídeo de Demonstração:** [Link](https://discord.com/channels/@me/1501104116712345661/1515920636005056574)
 
 ```
 
