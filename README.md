@@ -77,10 +77,10 @@ Esta seção documenta a execução dos 5 casos de teste obrigatórios para vali
 
 * **Pergunta enviada:** "O terminal 03 da rodovia parou de responder, a tela está preta e o conector CCS2 parece estar com a trava de segurança emperrada."
 * **Resposta obtida:** *(Cole aqui o texto retornado pelo chatbot)*
-* **Classificação:** [ ] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
-* **Justificativa:** *(Justifique com base nas regras do negócio)*
+* **Classificação:** [X] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
+* **Justificativa:** A IA atende à regra de negócio ao classificar o evento como uma falha crítica de hardware (*Downtime*). Ela deve estruturar automaticamente as informações em formato de ticket de suporte técnico e sugerir o bloqueio virtual do terminal para evitar que novos clientes sejam direcionados a ele.
 * **Evidência Operacional:**
-> *(Insira uma imagem de print do terminal rodando o script aqui)*
+  ![Print do Teste 2](assets/Teste_2.jpeg)
 
 
 
@@ -88,32 +88,30 @@ Esta seção documenta a execução dos 5 casos de teste obrigatórios para vali
 
 * **Pergunta enviada:** "Preciso de um relatório de rentabilidade da frota de ontem cruzando o consumo de energia e o tempo de ocupação dos terminais."
 * **Resposta obtida:** *(Cole aqui o texto retornado pelo chatbot)*
-* **Classificação:** [ ] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
-* **Justificativa:** *(Justifique com base nas regras do negócio)*
+* **Classificação:** [X] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
+* **Justificativa:** Demonstra a capacidade de Text-to-Data. A IA cruza as variáveis de tempo e energia (kWh) para calcular a rentabilidade, aplicando possíveis taxas de *Idle Fee* (ociosidade). O uso da ferramenta `calcular_expressao` assegura que a lógica financeira seja exata e sem alucinações.
 * **Evidência Operacional:**
-> *(Insira uma imagem de print do terminal rodando o script aqui)*
-
+  ![Print do Teste 3](assets/Teste_3.jpeg)
 
 
 ### Caso de Teste 4: Peak Shaving Reativo
 
 * **Pergunta enviada:** "Alerta no painel: o consumo do condomínio comercial atingiu 95% da demanda contratada. Temos 8 carros carregando agora. Qual a ação imediata do ChargeGrid?"
 * **Resposta obtida:** *(Cole aqui o texto retornado pelo chatbot)*
-* **Classificação:** [ ] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
-* **Justificativa:** *(Justifique com base nas regras do negócio)*
+* **Classificação:** [X] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
+* **Justificativa:** Valida o recurso de *Peak Shaving Reativo*. A IA identifica corretamente o risco de ultrapassar a demanda contratada e sofrer multas da concessionária, instruindo o *Load Balancing* imediato (redução e distribuição inteligente da potência) entre os 8 veículos conectados.
 * **Evidência Operacional:**
-> *(Insira uma imagem de print do terminal rodando o script aqui)*
+  ![Print do Teste 4](assets/Teste_4.jpeg)
 
 
 
 ### Caso de Teste 5: Capacidade Ociosa / Madrugada
-
 * **Pergunta enviada:** "Temos capacidade ociosa de 50 kW na nossa rede durante a madrugada. Vale a pena criar uma promoção?"
 * **Resposta obtida:** *(Cole aqui o texto retornado pelo chatbot)*
-* **Classificação:** [ ] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
-* **Justificativa:** *(Justifique com base nas regras do negócio)*
+* **Classificação:** [X] Adequada | [ ] Parcialmente Adequada | [ ] Inadequada
+* **Justificativa:** Comprova a visão analítica comercial da IA. O sistema justifica que a aplicação de Tarifa Dinâmica (desconto off-peak) rentabiliza a capacidade ociosa da infraestrutura, atraindo demanda específica (como motoristas de aplicativo e frotas) para horários de vale.
 * **Evidência Operacional:**
-> *(Insira uma imagem de print do terminal rodando o script aqui)*
+  ![Print do Teste 5](assets/Teste_5.jpeg)
 
 
 
